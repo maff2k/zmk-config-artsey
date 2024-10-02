@@ -51,7 +51,9 @@
  * Define which layout you want to use
  *  ONLY ENABLE ONE OF THESE
 *****************************************/
-//#define ARTSEY_RIGHT 1
+
+#define ARTSEY_RIGHT 1
+
 //#define ARTSEY_LEFT 1
 //#define ARTSEY_BIG 1
 // If you use COLEMAK as your standard keyboard layout, you may want this
