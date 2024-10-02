@@ -18,6 +18,7 @@ kscan0: kscan_0 {
 
 		label = "KSCAN";
 
+		#gpio_cells = <2>; 
 gpio-map
             = <0 0 &gpio0 0 0>      /* D0 */
             , <1 0 &gpio0 1 0>      /* D1 */
