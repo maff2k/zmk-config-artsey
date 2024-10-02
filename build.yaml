@@ -19,6 +19,6 @@
 ---
 # board [ "Artsey" ]
 include:
-  - board: nrf52840_mdk_usb_dongle
+  - board: seeed_xiao_ble
     shield: Artsey
  
