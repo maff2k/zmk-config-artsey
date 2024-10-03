@@ -11,14 +11,12 @@
 		zmk,kscan = &kscan0;
 	};
 
-		#gpio_cells = <2>;
 
 kscan0: kscan_0 {
 		compatible = "seeed,xiao-gpio";
 
 		label = "KSCAN";
 
-		#gpio_cells = <2>; 
 gpio-map
             = <0 0 &gpio0 0 0>      /* D0 */
             , <1 0 &gpio0 1 0>      /* D1 */
@@ -33,7 +31,7 @@ gpio-map
             , <10 0 &gpio0 10 0>        /* D10 */
             ;
 
-		#gpio_cells = <2>;
+		"#gpio_cells" = <2>;
 		input-gpios
 		=   <&xiao_d 0  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
 			, <&xiao_d 1  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
