@@ -15,3 +15,10 @@ node_labels:
   uart: xiao_serial
 design_guideline: |
   ZMK uses the "D"-prefixed, green color coded pin names, e.g. `D2`, to generate devicetree node references. For example, to refer to the pin labeled `D0` in the diagram, use `&xiao_d 0` in the devicetree files.
+
+"#gpio-cells":
+    const: 2
+
+gpio-cells:
+  - pin
+  - flags
