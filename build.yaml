@@ -22,3 +22,5 @@ include:
   - board: seeeduino_xiao_ble
     shield: Artsey
  
+"#gpio-cells":
+    const: 2
