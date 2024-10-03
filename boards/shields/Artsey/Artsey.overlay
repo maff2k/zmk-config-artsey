@@ -14,8 +14,8 @@
 
 kscan0: kscan_0 {
 		#gpio-cells = <2>;
+
 		compatible = "zmk,kscan-gpio-direct";
-		// compatible = "seeed,xiao-gpio";
 
 		label = "KSCAN";
 
